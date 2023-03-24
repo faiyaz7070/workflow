@@ -1,0 +1,7 @@
+on: push
+jobs: 
+    first-jobs: 
+    runs-on: windows-latest, macos-latest, ubuntu-latest
+    steps:
+    -run: node --version
+    -run: npm  --version 
